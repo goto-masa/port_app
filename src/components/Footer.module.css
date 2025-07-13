@@ -1,0 +1,10 @@
+.footer {
+  background-color: #111827 !important; /* Tailwind gray-900 */
+  color: #fff !important;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer :global(*) {
+  color: inherit;
+} 

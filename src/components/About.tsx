@@ -40,8 +40,8 @@ export default function About() {
               </p>
               
               <p className="text-lg text-gray-600 leading-relaxed">
-                ECサイト、SaaS、フィンテック業界での実務経験により、
-                業界特有の課題を深く理解しています。技術的な実装からビジネス戦略まで、実践的なソリューションを提供します。
+                マーケティング、人材業界での実務経験により、
+                実践的なプロダクト開発を理解しています。特にフロントエンド改修のスピードには自信があります。
               </p>
               
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -67,7 +67,7 @@ export default function About() {
               </div>
               <p className="text-gray-600 leading-relaxed">
                 2年以上の実務経験を通じて、Webアプリケーション開発とマーケティング戦略の両分野で専門性を培いました。
-                現場で培った実践的なノウハウを活かし、理論と実務のギャップを埋めるソリューションを提供します。
+                現場で培った実践的なノウハウを活かし、WEB制作やWEB開発のニーズに応えます。
               </p>
             </div>
             
@@ -83,7 +83,7 @@ export default function About() {
               </div>
               <p className="text-gray-600 leading-relaxed">
                 LaravelとVue.jsによるフルスタック開発、Filamentを活用した管理システム構築、
-                そしてデータドリブンなマーケティング施策の企画・実行が専門領域です。
+                そしてスピード感を持ったフロントエンドのWEB制作分野が得意です。
               </p>
             </div>
             

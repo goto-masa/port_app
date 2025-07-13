@@ -262,7 +262,15 @@
   transform: translateY(-50%);
   z-index: 40;
 }
-
+@media screen and (max-width:768px){
+  .experimental-nav{
+    top:auto;
+    right:1rem;
+    bottom:2rem;
+    transform:none;
+    height: fit-content ;
+  }
+}
 .nav-dot {
   width: 12px;
   height: 12px;
@@ -513,4 +521,23 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #2563eb, #7c3aed);
+}
+
+/* カスタム */
+.p-custom-button{
+  background: linear-gradient(145deg, #f7fafc, #e2e8f0);
+  box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.4), 
+    -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+.dark .p-custom-button{
+  background: linear-gradient(145deg, #334155, #1e293b) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 
+  -5px -5px 10px rgba(71, 85, 105, 0.1) !important;
+} 
+.darl .c-custom-text{
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity, 1));
+}
+.c-fv-text{
+  line-height: 1.2!important;
 }

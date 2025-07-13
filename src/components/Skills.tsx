@@ -120,13 +120,13 @@ export default function Skills() {
                     <li>• Webアプリケーション開発チームでの勤務</li>
                     <li>• マーケティング部署での施策実行</li>
                     <li>• Laravel・Vue.jsを使った実案件開発</li>
-                    <li>• ECサイト・SaaS・フィンテック業界での経験</li>
+                    <li>• マーケティング・人材業界での経験</li>
                   </ul>
                 </div>
               </div>
             </div>
             <div className="text-center group animate-scroll-fade-in relative cursor-pointer">
-              <div className="text-4xl font-bold bg-gradient-to-r from-teal-500 to-green-500 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-300 micro-bounce">15+</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-teal-500 to-green-500 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-300 micro-bounce">10+</div>
               <div className="text-gray-600 font-medium">完了プロジェクト</div>
               
               {/* Modal */}
@@ -135,9 +135,9 @@ export default function Skills() {
                   <h4 className="font-semibold text-gray-900 mb-3">プロジェクト実績</h4>
                   <ul className="text-sm text-gray-600 space-y-2">
                     <li>• ECサイト構築・リニューアル（5件）</li>
-                    <li>• 管理画面システム開発（4件）</li>
-                    <li>• マーケティングLP制作（3件）</li>
-                    <li>• API開発・システム連携（3件）</li>
+                    <li>• 管理画面システム開発（2件）</li>
+                    <li>• マーケティングLP制作（50件以上）</li>
+                    <li>• API開発・システム連携（2件）</li>
                   </ul>
                 </div>
               </div>

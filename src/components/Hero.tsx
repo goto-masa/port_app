@@ -69,27 +69,27 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div 
-            className="flex justify-center items-center space-x-2 mb-6 animate-fade-in-up micro-glow"
+            className="flex justify-center items-center space-x-2 mb-6 "
             data-parallax="0.2"
           >
             <Sparkles className="w-6 h-6 text-blue-600 animate-spin-slow" />
-            <span className="text-blue-600 font-semibold neumorphism-button px-6 py-3 rounded-full border-0 hover:text-blue-700 transition-colors duration-300">
+            <span className="text-blue-600 font-semibold p-custom-button px-6 py-3 rounded-full border-0 hover:text-blue-700 transition-colors duration-300">
               Professional Web Development & Marketing
             </span>
           </div>
           
           <h1 
-            className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in-up delay-200"
+            className="c-fv-text text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in-up delay-200"
             data-parallax="0.1"
           >
-            ビジネスの成長を
+            ビジネスの成長を<br className=" block md:hidden"/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-teal-500 animate-gradient-x">
               {' '}加速させませんか？
             </span>
           </h1>
           
           <p 
-            className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-400"
+            className="md:text-xl text-base text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-400"
             data-parallax="0.15"
           >
             スタートアップや中小企業の皆さん、限られた予算で最大の成果を求めていませんか？
@@ -114,19 +114,19 @@ export default function Hero() {
             className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in-up delay-800"
             data-parallax="0.25"
           >
-            <div className="group neumorphism-card p-8 rounded-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 micro-glow">
+            <div className="group neumorphism-card p-8 rounded-2xl transition-all duration-500 transform border-0 micro-glow">
               <Code className="w-12 h-12 text-blue-600 mb-4 mx-auto group-hover:scale-110 transition-transform duration-300" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Web Development</h3>
               <p className="text-gray-600">最新技術でWebサイト・アプリ作ります</p>
             </div>
             
-            <div className="group neumorphism-card p-8 rounded-2xl transition-all duration-500 transform hover:-translate-y-2 delay-100 border-0 micro-glow">
+            <div className="group neumorphism-card p-8 rounded-2xl transition-all duration-500 transform delay-100 border-0 micro-glow">
               <TrendingUp className="w-12 h-12 text-teal-500 mb-4 mx-auto group-hover:scale-110 transition-transform duration-300" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Marketing Strategy</h3>
               <p className="text-gray-600">数字で見える形で売上アップのお手伝い</p>
             </div>
             
-            <div className="group neumorphism-card p-8 rounded-2xl transition-all duration-500 transform hover:-translate-y-2 delay-200 border-0 micro-glow">
+            <div className="group neumorphism-card p-8 rounded-2xl transition-all duration-500 transform delay-200 border-0 micro-glow">
               <Sparkles className="w-12 h-12 text-purple-500 mb-4 mx-auto group-hover:scale-110 transition-transform duration-300" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Business Growth</h3>
               <p className="text-gray-600">ビジネス成長のトータルサポート</p>

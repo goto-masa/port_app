@@ -39,12 +39,14 @@ export default function Contact() {
           className="text-center mb-20"
           data-parallax="0.15"
         >
-          <div className="flex justify-center items-center space-x-2 mb-6">
-            <Sparkles className="w-6 h-6 text-white animate-spin-slow" />
+          <div className="flex justify-center items-center space-x-2 mb-6 ">
+            <div className="flex justify-center items-center space-x-2 mb-6">
+              <Sparkles className="w-6 h-6 text-white animate-spin-slow" />
+            </div>
+            <h2 className="c-custom-text text-3xl md:text-4xl font-bold text-white mb-6 animate-fade-in-up">
+              プロジェクトを始めませんか？
+            </h2>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 animate-fade-in-up">
-            プロジェクトを始めませんか？
-          </h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto animate-fade-in-up delay-200">
             <span className="text-gray-300">コスト効率の高いデジタルソリューションについて、</span>
             <span className="text-blue-200">お気軽にご相談ください</span>
